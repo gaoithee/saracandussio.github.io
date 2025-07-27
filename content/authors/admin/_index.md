@@ -27,6 +27,8 @@ profiles:
     url: https://www.instagram.com/saracandussio/
   - icon: brands/github
     url: https://github.com/gaoithee
+  - icon: custom/huggingface
+    url: https://huggingface.co/saracandu
   - icon: brands/linkedin
     url: https://it.linkedin.com/in/sara-candussio-830772283
   - icon: academicons/google-scholar
