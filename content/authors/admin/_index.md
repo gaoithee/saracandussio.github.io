@@ -31,81 +31,83 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:saracandussio.research@gmail.com'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+    url: https://x.com/SaraCandussio
   - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.instagram.com/saracandussio/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/gaoithee
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://it.linkedin.com/in/sara-candussio-830772283
   - icon: academicons/google-scholar
     url: https://scholar.google.com/
   - icon: academicons/orcid
     url: https://orcid.org/
 
 interests:
+  - Natural Language Processing
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+
+  - area: PhD in Applied Data Science and Artificial Intelligence
+    institution: University of Trieste and SISSA
+    date_start: 2024-11-01
+    date_end: 2027-10-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Currently working on reasoning with LLMs.
+
+    - area: MSc in Data Science and Scientific Computing (LM-44)
+    institution: University of Trieste
+    date_start: 2024-09-20
+    date_end: 2022-09-23
+    summary: |
+      Thesis on _A Dialectic Pipeline for Improving LLMs Robustness_, supervised by [Luca Bortolussi](https://ai-lab.units.it/?page_id=139) and [Gabriele Sarti](https://gsarti.com/), awarded 110/110 cum laude.
+      Courses included:
+      - Natural Language Processing
+      - Deep Learning
+      - Supervised Learning
+      - Unsupervised Learning
+      - Multi-Agent Systems
+      - Information Retrieval
+      - Probabilistic Machine Learning
+      - Statistical Methods for Data Science
+      - Advanced Programming
+      - Foundations of High Performance Computing
     button:
       text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
+      url: TBA
       
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: BSc in Statistics (L-41)
+    institution: University of Trieste
+    date_start: 2019-10-01
+    date_end: 2022-09-15
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Thesis on _Beta‑binomial regression model for inferring the number of BSc graduate students in Italian universities_, supervised by [Francesco Pauli](https://deams.units.it/en/node/1330), awarded 110/110 cum laude.
+  
+work:
+
+  - position: Intership, Research Scientist
+    company_name: Rachael S.r.l. 
+    company_url: 'https://rachael.swg.it/'
+    company_logo: ''
+    date_start: 2023-10-01
+    date_end: 2024-03-31
+    summary: |2-
+      - Sentiment analysis and topic modeling on web‑scraped opinions
+      - Question Answering on PDF documents using RAG and OCR techniques
+      - Synthetic tabular data generation using past polls data
+  
+  - position: Probabilistic Machine Learning MSc course teaching assistant
+    company_name: University of Trieste
+    company_url: ''
+    company_logo: ''
+    date_start: 2025-03-01
+    date_end: ''
+    summary: |
+      Review lectures and pratical lab sessions in Python. Course topics: ERM, PAC learnability, Probabilistic Graphical Models, Hidden Markov Models, Bayesian Classification and Regression, Sampling‑based Inference, Expectation‑Maximization algorithm, Variational Inference, Generative Modeling (VAEs, Diffusion Models), Gaussian Processes.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -142,12 +144,14 @@ skills:
         icon: camera
 
 languages:
-  - name: English
+  - name: Italian
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: English
+    percent: 90
+  - name: French
+    percent: 10
+  - name: Spanish
+    percent: 5
 
 # Awards.
 #   Add/remove as many awards below as you like.
