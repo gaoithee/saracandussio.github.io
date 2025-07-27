@@ -1,28 +1,19 @@
 ---
-# Display name
 title: Sara Candussio
+name_pronunciation: ''
 
-# Name pronunciation (optional)
-name_pronunciation: 
-
-# Full name (for SEO)
 first_name: Sara
 last_name: Candussio
 
-# Status emoji
-status:
-  icon: 
+status: ''
+  icon: ''
 
-# Is this the primary user of the site?
 superuser: true
 
-# Highlight the author in author lists? (true/false)
 highlight_name: true
 
-# Role/position/tagline
 role: PhD student
 
-# Organizations/Affiliations to display in Biography blox
 organizations:
   - name: AI Lab, University of Trieste
     url: https://ai-lab.units.it/
@@ -63,7 +54,8 @@ education:
     institution: University of Trieste
     date_start: 2024-09-20
     date_end: 2022-09-23
-    summary: Thesis on _A Dialectic Pipeline for Improving LLMs Robustness_, supervised by [Luca Bortolussi](https://ai-lab.units.it/?page_id=139) and [Gabriele Sarti](https://gsarti.com/), awarded 110/110 cum laude. 
+    summary: |
+      Thesis on _A Dialectic Pipeline for Improving LLMs Robustness_, supervised by [Luca Bortolussi](https://ai-lab.units.it/?page_id=139) and [Gabriele Sarti](https://gsarti.com/), awarded 110/110 cum laude. 
     button:
       text: 'Read Thesis'
       url: TBA  
