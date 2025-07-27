@@ -58,13 +58,14 @@ education:
     date_end: 2027-10-31
     summary: |
       Currently working on reasoning with LLMs.
-    - area: MSc in Data Science and Scientific Computing (LM-44)
+
+  - area: MSc in Data Science and Scientific Computing (LM-44)
     institution: University of Trieste
     date_start: 2024-09-20
     date_end: 2022-09-23
     summary: |
-      Thesis on _A Dialectic Pipeline for Improving LLMs Robustness_, supervised by [Luca Bortolussi](https://ai-lab.units.it/?page_id=139) and [Gabriele Sarti](https://gsarti.com/), awarded 110/110 cum laude.
-      Courses included:
+    Thesis on _A Dialectic Pipeline for Improving LLMs Robustness_, supervised by [Luca Bortolussi](https://ai-lab.units.it/?page_id=139) and [Gabriele Sarti](https://gsarti.com/), awarded 110/110 cum laude.
+    Courses included:
       - Natural Language Processing
       - Deep Learning
       - Supervised Learning
@@ -78,11 +79,11 @@ education:
     button:
       text: 'Read Thesis'
       url: TBA  
-  - area: BSc in Statistics (L-41)
-    institution: University of Trieste
-    date_start: 2019-10-01
-    date_end: 2022-09-15
-    summary: |
+- area: BSc in Statistics (L-41)
+  institution: University of Trieste
+  date_start: 2019-10-01
+  date_end: 2022-09-15
+  summary: |
       Thesis on _Beta‑binomial regression model for inferring the number of BSc graduate students in Italian universities_, supervised by [Francesco Pauli](https://deams.units.it/en/node/1330), awarded 110/110 cum laude.
   
 work:
