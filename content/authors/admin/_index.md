@@ -63,17 +63,7 @@ education:
     institution: University of Trieste
     date_start: 2024-09-20
     date_end: 2022-09-23
-    summary: Thesis on _A Dialectic Pipeline for Improving LLMs Robustness_, supervised by [Luca Bortolussi](https://ai-lab.units.it/?page_id=139) and [Gabriele Sarti](https://gsarti.com/), awarded 110/110 cum laude. Courses included:
-      - Natural Language Processing
-      - Deep Learning
-      - Supervised Learning
-      - Unsupervised Learning
-      - Multi-Agent Systems
-      - Information Retrieval
-      - Probabilistic Machine Learning
-      - Statistical Methods for Data Science
-      - Advanced Programming
-      - Foundations of High Performance Computing
+    summary: Thesis on _A Dialectic Pipeline for Improving LLMs Robustness_, supervised by [Luca Bortolussi](https://ai-lab.units.it/?page_id=139) and [Gabriele Sarti](https://gsarti.com/), awarded 110/110 cum laude. 
     button:
       text: 'Read Thesis'
       url: TBA  
