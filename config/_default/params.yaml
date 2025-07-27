@@ -6,16 +6,16 @@
 # Appearance
 appearance:
   mode: system
-  color: emerald
+  color: red
 
 # SEO
 marketing:
   seo:
-    site_type: Person
+    site_type: Personal
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    description: 'PhD student in Artificial Intelligence exploring LLM generalization and neuro-symbolic reasoning.'
+    twitter: 'SaraCandussio'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
