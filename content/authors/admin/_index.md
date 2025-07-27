@@ -5,9 +5,6 @@ name_pronunciation: ''
 first_name: Sara
 last_name: Candussio
 
-status: ''
-  icon: ''
-
 superuser: true
 
 highlight_name: true
@@ -58,16 +55,15 @@ education:
       Thesis on _A Dialectic Pipeline for Improving LLMs Robustness_, supervised by [Luca Bortolussi](https://ai-lab.units.it/?page_id=139) and [Gabriele Sarti](https://gsarti.com/), awarded 110/110 cum laude. 
     button:
       text: 'Read Thesis'
-      url: TBA  
-- area: BSc in Statistics (L-41)
-  institution: University of Trieste
-  date_start: 2019-10-01
-  date_end: 2022-09-15
-  summary: |
+      url: TBA
+  - area: BSc in Statistics (L-41)
+    institution: University of Trieste
+    date_start: 2019-10-01
+    date_end: 2022-09-15
+    summary: |
       Thesis on _Beta‑binomial regression model for inferring the number of BSc graduate students in Italian universities_, supervised by [Francesco Pauli](https://deams.units.it/en/node/1330), awarded 110/110 cum laude.
   
 work:
-
   - position: Intership, Research Scientist
     company_name: Rachael S.r.l. 
     company_url: 'https://rachael.swg.it/'
