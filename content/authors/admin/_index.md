@@ -49,6 +49,7 @@ profiles:
 interests:
   - Natural Language Processing
   - Artificial Intelligence
+  - Neuro-Symbolic Computing
 
 education:
   - area: PhD in Applied Data Science and Artificial Intelligence
@@ -76,8 +77,7 @@ education:
       - Foundations of High Performance Computing
     button:
       text: 'Read Thesis'
-      url: TBA
-      
+      url: TBA  
   - area: BSc in Statistics (L-41)
     institution: University of Trieste
     date_start: 2019-10-01
