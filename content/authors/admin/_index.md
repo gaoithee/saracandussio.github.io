@@ -51,14 +51,12 @@ interests:
   - Artificial Intelligence
 
 education:
-
   - area: PhD in Applied Data Science and Artificial Intelligence
     institution: University of Trieste and SISSA
     date_start: 2024-11-01
     date_end: 2027-10-31
     summary: |
       Currently working on reasoning with LLMs.
-
     - area: MSc in Data Science and Scientific Computing (LM-44)
     institution: University of Trieste
     date_start: 2024-09-20
