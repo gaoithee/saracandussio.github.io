@@ -91,16 +91,13 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
+        percent: 90
         icon: code-bracket
       - name: Data Science
         description: ''
         percent: 100
         icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
+
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -162,4 +159,12 @@ awards:
 
 ## About Me
 
-Test per vedere se fa qualcosa o se si ostina a dirmi che sono cinese!
+**Hello there**, I'm Sara! 
+
+I'm a first-year PhD student in Natural Language Processing at the University of Trieste (Italy), where I work within the [AI Lab](https://ai-lab.units.it/) under the supervision of [Luca Bortolussi](https://ai-lab.units.it/?page_id=139) and [Gabriele Sarti](https://gsarti.com/).
+
+I hold a Bachelor's degree in Statistics and a Master's degree in Artificial Intelligence. My Master's thesis explored how multi-agent systems can enhance the performance of extremely compact models on Question Answering tasks. 🤝
+
+My current research focuses on understanding the generalization abilities of large language models (LLMs), identifying their limitations, and exploring ways to encourage reasoning that goes beyond memorization. I'm particularly interested in Reinforcement Learning paradigms and Neuro-Symbolic integration. You can read more in my [recent paper accepted at ECML](arXiv:2507.07808). 🧠
+
+Outside of research, I’m the vice-president of the AI Student Society, and previously I worked as a research intern at [Rachael S.r.l.](https://rachael.swg.it/). 
