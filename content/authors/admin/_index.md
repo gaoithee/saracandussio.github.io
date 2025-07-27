@@ -23,18 +23,14 @@ profiles:
     label: E-mail Me
   - icon: brands/x
     url: https://x.com/SaraCandussio
+  - icon: brands/bluesky
+    url: https://bsky.app/profile/saracandussio.bsky.social
   - icon: brands/instagram
     url: https://www.instagram.com/saracandussio/
   - icon: brands/github
     url: https://github.com/gaoithee
-  - icon: custom/huggingface
-    url: https://huggingface.co/saracandu
   - icon: brands/linkedin
     url: https://it.linkedin.com/in/sara-candussio-830772283
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
 
 interests:
   - Natural Language Processing
@@ -100,23 +96,6 @@ skills:
         percent: 100
         icon: chart-bar
 
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
-
 languages:
   - name: Italian
     percent: 100
@@ -127,7 +106,7 @@ languages:
   - name: Spanish
     percent: 5
 
-# Awards.
+# Awards. TDB
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
