@@ -53,7 +53,7 @@ education:
       Thesis on _A Dialectic Pipeline for Improving LLMs Robustness_, supervised by [Luca Bortolussi](https://ai-lab.units.it/?page_id=139) and [Gabriele Sarti](https://gsarti.com/), awarded 110/110 cum laude. 
     button:
       text: 'Read Thesis'
-      url: TBA
+      url: static/master-thesis.pdf
   - area: BSc in Statistics (L-41)
     institution: University of Trieste
     date_start: 2019-10-01
