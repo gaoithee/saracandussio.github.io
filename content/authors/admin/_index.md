@@ -85,16 +85,56 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Programming
     items:
       - name: Python
-        description: ''
         percent: 90
-        icon: code-bracket
-      - name: Data Science
-        description: ''
+        icon: python
+      - name: R
         percent: 100
+        icon: r-language
+      - name: Bash / Linux
+        percent: 70
+        icon: terminal
+  - name: Machine Learning & NLP
+    items:
+      - name: Deep Learning (PyTorch)
+        percent: 95
+        icon: pytorch
+      - name: Transformers / HuggingFace
+        percent: 90
+        icon: huggingface
+      - name: NLP Tasks (QA, NLI, Sentiment, ...)
+        percent: 85
+        icon: language
+      - name: Evaluation & Benchmarking
+        percent: 90
+        icon: chart-line
+  - name: Data & Statistical Tools
+    items:
+      - name: Data Analysis (Pandas / NumPy)
+        percent: 95
         icon: chart-bar
+      - name: Scikit-Learn
+        percent: 90
+        icon: cubic
+      - name: Statistical Modeling
+        percent: 100
+        icon: function
+      - name: SQL (basic)
+        percent: 80
+        icon: database
+  - name: Dev & Research Tools
+    items:
+      - name: Git / GitHub
+        percent: 80
+        icon: git-branch
+      - name: LaTeX
+        percent: 90
+        icon: latex
+      - name: Experiment Tracking (Weights & Biases)
+        percent: 75
+        icon: wandb
 
 languages:
   - name: Italian
@@ -104,7 +144,7 @@ languages:
   - name: French
     percent: 10
   - name: Spanish
-    percent: 5
+    percent: 10
 
 # Awards. TDB
 #   Add/remove as many awards below as you like.
