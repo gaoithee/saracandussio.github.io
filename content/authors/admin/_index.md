@@ -104,6 +104,7 @@ skills:
       - name: Transformers / HuggingFace
         percent: 90
         icon: huggingface
+        icon_pack: custom
       - name: NLP Tasks (QA, NLI, Sentiment, ...)
         percent: 85
         icon: language
