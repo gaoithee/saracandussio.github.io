@@ -11,13 +11,12 @@ design:
 sections:
   - block: resume-biography-3
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: ""
-      # Show a call-to-action button under your biography? (optional)
+      text: "here"
       button:
         text: Download CV
-        url: media/cv.pdf
+        # Since we confirmed resume.pdf works at the root, use that filename exactly
+        url: resume.pdf
     design:
       css_class: dark
       background:
