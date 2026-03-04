@@ -12,10 +12,9 @@ sections:
   - block: resume-biography-3
     content:
       username: admin
-      text: "here"
+      text: ""
       button:
         text: Download CV
-        # Since we confirmed resume.pdf works at the root, use that filename exactly
         url: resume.pdf
     design:
       css_class: dark
