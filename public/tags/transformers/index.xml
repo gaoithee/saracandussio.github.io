@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Transformers | Sara Candussio</title>
+    <link>//localhost:1313/tags/transformers/</link>
+      <atom:link href="//localhost:1313/tags/transformers/index.xml" rel="self" type="application/rss+xml" />
+    <description>Transformers</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>//localhost:1313/media/icon_hu_4bc81f2edf496b34.png</url>
+      <title>Transformers</title>
+      <link>//localhost:1313/tags/transformers/</link>
+    </image>
+    
+    <item>
+      <title>Distilling Formal Logic into Neural Spaces</title>
+      <link>//localhost:1313/project/stlenc/</link>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/project/stlenc/</guid>
+      <description>&lt;p&gt;Continuous neural representations of STL specifications via kernel distillation. Accepted at &lt;strong&gt;NeSy 2026&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Distilling Formal Logic into Neural Spaces: A Kernel Alignment Approach for Signal Temporal Logic</title>
+      <link>//localhost:1313/publication/distilling-formal-logic/</link>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/distilling-formal-logic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bridging Logic and Learning: Decoding Temporal Logic Embeddings via Transformers</title>
+      <link>//localhost:1313/publication/bridging-logic-and-learning/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/bridging-logic-and-learning/</guid>
+      <description>&lt;p&gt;This work introduces a Transformer-based decoder that inverts embeddings of Signal Temporal Logic (STL) formulae. By constructing a small STL vocabulary, the model can generate valid formulae quickly, generalize across semantic structures, and simplify formulas while preserving their meaning. Our methodology is evaluated across varying formula complexity and applied to requirement mining tasks, performing optimization directly in the semantic space.&lt;/p&gt;
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including 
+.&lt;/p&gt;
+&lt;p&gt;If you find overlap with your work or interests, I would be glad to connect and explore possible collaborations.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>STLDec: Decoding Temporal Logic Embeddings via Transformers</title>
+      <link>//localhost:1313/project/stldec/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/project/stldec/</guid>
+      <description>&lt;p&gt;Transformer-based decoder for inverting semantic embeddings of Signal Temporal Logic (STL) formulae. Published at &lt;strong&gt;ECML-PKDD 2025&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

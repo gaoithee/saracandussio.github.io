@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Sara Candussio</title>
+    <link>//localhost:1313/project/</link>
+      <atom:link href="//localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>//localhost:1313/media/icon_hu_4bc81f2edf496b34.png</url>
+      <title>Projects</title>
+      <link>//localhost:1313/project/</link>
+    </image>
+    
+    <item>
+      <title>Distilling Formal Logic into Neural Spaces</title>
+      <link>//localhost:1313/project/stlenc/</link>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/project/stlenc/</guid>
+      <description>&lt;p&gt;Continuous neural representations of STL specifications via kernel distillation. Accepted at &lt;strong&gt;NeSy 2026&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>STLDec: Decoding Temporal Logic Embeddings via Transformers</title>
+      <link>//localhost:1313/project/stldec/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/project/stldec/</guid>
+      <description>&lt;p&gt;Transformer-based decoder for inverting semantic embeddings of Signal Temporal Logic (STL) formulae. Published at &lt;strong&gt;ECML-PKDD 2025&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OverRef: Studying Over-Refusal in Large Language Models</title>
+      <link>//localhost:1313/project/overref/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/project/overref/</guid>
+      <description>&lt;p&gt;Ongoing project on &lt;strong&gt;over-refusal&lt;/strong&gt; in LLMs: studying when and why models refuse legitimate user queries, with benchmarking and dataset resources.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
