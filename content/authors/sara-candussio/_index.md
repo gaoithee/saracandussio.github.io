@@ -30,18 +30,19 @@ profiles:
     url: https://it.linkedin.com/in/sara-candussio-830772283
 
 interests:
-  - Generalization in LLMs
-  - RL approaches for NLP
+  - Reasoning in LLMs
+  - Reinforcement Learning approaches for NLP
   - Neuro-Symbolic Integration
   - Multi-Agent LLMs
+  - Generalization in LLMs
 
 education:
   - area: PhD in Applied Data Science and Artificial Intelligence
-    institution: University of Trieste and SISSA
+    institution: University of Trieste
     date_start: 2024-11-01
     date_end: 2027-10-31
     summary: |
-      Currently working on reasoning with LLMs.
+      Currently working on reasoning with LLMs, visiting PhD at the CLCG of the University of Groningen. 
 
   - area: MSc in Data Science and Scientific Computing (LM-44)
     institution: University of Trieste
@@ -156,13 +157,13 @@ languages:
     percent: 10
 
 awards:
-  - title: Mention of Honor, "Best Master Thesis" — Emanuele Pianta Award
+  - title: [Mention of Honor, "Best Master Thesis" — Emanuele Pianta Award](https://clic2025.unica.it/emanuele-pianta-award-for-the-best-masters-thesis/).
     date: '2025-01-01'
     awarder: CLiC-it 2025 / AILC
     summary: |
       Awarded at the Italian Conference on Computational Linguistics (CLiC-it 2025) in Cagliari for the thesis "A Dialectic Pipeline for Improving LLM Robustness".
 
-  - title: 3rd Place — "ACCELERATE AI" Hackathon
+  - title: 3rd Place — ["ACCELERATE AI" Hackathon](https://www.aindo.com/news/hackaton/)
     date: '2024-01-01'
     awarder: AINDO, Trieste
     summary: |
@@ -179,7 +180,7 @@ awards:
 
 **Hello there**, I'm Sara!
 
-I'm a second-year PhD student in Natural Language Processing at the University of Trieste (Italy), where I work within the [AI Lab](https://ai-lab.units.it/) under the supervision of [Luca Bortolussi](https://ai-lab.units.it/?page_id=139) and [Gabriele Sarti](https://gsarti.com/).
+I'm a second-year PhD student in Natural Language Processing at the University of Trieste (Italy), where I work within the [AI Lab](https://ai-lab.units.it/) under the supervision of [Luca Bortolussi](https://ai-lab.units.it/?page_id=139) and [Gabriele Sarti](https://gsarti.com/).I'm currently visiting the [NLP group](https://huggingface.co/GroNLP) of the [Center for Language and Cognition (CLCG)](https://www.rug.nl/research/clcg/?lang=en). 
 
 My current research focuses on understanding the reasoning abilities of large language models (LLMs), identifying their limitations, and exploring ways to encourage generalization that goes beyond memorization. I'm particularly interested in Mechanistic Interpretability, Reinforcement Learning paradigms and Neuro-Symbolic integration. You can read more in my [scholar personal profile]([https://arxiv.org/abs/2507.07808](https://scholar.google.com/citations?user=ktAv1wgAAAAJ&hl=en)). 🧠
 
