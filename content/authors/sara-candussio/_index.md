@@ -157,7 +157,7 @@ languages:
     percent: 10
 
 awards:
-  - title: [Mention of Honor, "Best Master Thesis" — Emanuele Pianta Award](https://clic2025.unica.it/emanuele-pianta-award-for-the-best-masters-thesis/).
+  - title: Mention of Honor, "Best Master Thesis" — [Emanuele Pianta Award](https://clic2025.unica.it/emanuele-pianta-award-for-the-best-masters-thesis/).
     date: '2025-01-01'
     awarder: CLiC-it 2025 / AILC
     summary: |
