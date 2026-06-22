@@ -41,6 +41,7 @@ sections:
     id: talks
     content:
       title: Talks
+      page_type: event
       filters:
         folders:
           - event
@@ -51,6 +52,7 @@ sections:
     id: news
     content:
       title: News
+      page_type: news
       filters:
         folders:
           - news
@@ -58,9 +60,18 @@ sections:
       view: citation
       columns: 1
   - block: collection
+    id: teaching
+    content:
+          title: Teaching
+          page_type: teaching
+          filters:
+            folders:
+              - teaching
+  - block: collection
     id: papers
     content:
       title: Featured Publications
+      page_type: publications
       filters:
         folders:
           - publication
