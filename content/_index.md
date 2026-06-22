@@ -38,6 +38,26 @@ sections:
     design:
       columns: '1'
   - block: collection
+    id: talks
+    content:
+      title: Talks
+      filters:
+        folders:
+          - event
+    design:
+      view: article-grid
+      columns: 2
+  - block: collection
+    id: news
+    content:
+      title: News
+      filters:
+        folders:
+          - news
+    design:
+      view: citation
+      columns: 1
+  - block: collection
     id: papers
     content:
       title: Featured Publications
