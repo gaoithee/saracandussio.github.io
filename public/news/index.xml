@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News | Sara Candussio</title>
-    <link>//localhost:1313/news/</link>
-      <atom:link href="//localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
+    <link>/news/</link>
+      <atom:link href="/news/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
-      <url>//localhost:1313/media/icon_hu_5c64a4bee4457df8.png</url>
+      <url>/media/icon_hu_5c64a4bee4457df8.png</url>
       <title>News</title>
-      <link>//localhost:1313/news/</link>
+      <link>/news/</link>
     </image>
     
   </channel>

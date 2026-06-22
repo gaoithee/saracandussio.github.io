@@ -2,158 +2,190 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/tags/chain-of-thought/</loc>
+    <loc>/tags/ai-safety/</loc>
+    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication_types/article/</loc>
+    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/commitment-boundary/</loc>
+    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tags/human-ai-interaction/</loc>
+    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tags/italian-nlp/</loc>
+    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tags/llm-deception/</loc>
+    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication_types/paper-conference/</loc>
+    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication_types/</loc>
+    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/</loc>
+    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/rogue-ai/</loc>
+    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tags/turing-test/</loc>
+    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tags/chain-of-thought/</loc>
     <lastmod>2026-04-24T12:05:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tags/interpretability/</loc>
+    <loc>/tags/interpretability/</loc>
     <lastmod>2026-04-24T12:05:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tags/invited-talk/</loc>
+    <loc>/tags/invited-talk/</loc>
     <lastmod>2026-04-24T12:05:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tags/large-language-models/</loc>
+    <loc>/tags/large-language-models/</loc>
     <lastmod>2026-04-24T12:05:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/event/clcg-linguistics-lunch/</loc>
+    <loc>/event/clcg-linguistics-lunch/</loc>
     <lastmod>2026-04-24T12:05:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/event/</loc>
+    <loc>/event/</loc>
     <lastmod>2026-04-24T12:05:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
-    <lastmod>2026-04-24T12:05:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/project/stlenc/</loc>
+    <loc>/project/stlenc/</loc>
     <lastmod>2026-03-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/publication/distilling-formal-logic/</loc>
+    <loc>/publication/distilling-formal-logic/</loc>
     <lastmod>2026-03-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tags/kernel-methods/</loc>
+    <loc>/tags/kernel-methods/</loc>
     <lastmod>2026-03-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tags/neuro-symbolic-ai/</loc>
+    <loc>/tags/neuro-symbolic-ai/</loc>
     <lastmod>2026-03-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/publication_types/paper-conference/</loc>
+    <loc>/project/</loc>
     <lastmod>2026-03-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/project/</loc>
+    <loc>/tags/signal-temporal-logic/</loc>
     <lastmod>2026-03-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/publication_types/</loc>
+    <loc>/tags/transformers/</loc>
     <lastmod>2026-03-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/publication/</loc>
-    <lastmod>2026-03-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/tags/signal-temporal-logic/</loc>
-    <lastmod>2026-03-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/tags/transformers/</loc>
-    <lastmod>2026-03-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/publication/dialectic-pipeline/</loc>
+    <loc>/publication/dialectic-pipeline/</loc>
     <lastmod>2026-01-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tags/hallucination/</loc>
+    <loc>/tags/hallucination/</loc>
     <lastmod>2026-01-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tags/multi-agent-systems/</loc>
+    <loc>/tags/multi-agent-systems/</loc>
     <lastmod>2026-01-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tags/question-answering/</loc>
+    <loc>/tags/question-answering/</loc>
     <lastmod>2026-01-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/publication_types/thesis/</loc>
+    <loc>/publication_types/thesis/</loc>
     <lastmod>2026-01-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tags/industry/</loc>
+    <loc>/tags/industry/</loc>
     <lastmod>2025-12-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/event/novalia-llm-workshop/</loc>
+    <loc>/event/novalia-llm-workshop/</loc>
     <lastmod>2025-12-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/event/dagstuhl-rtg-symposium/</loc>
+    <loc>/event/dagstuhl-rtg-symposium/</loc>
     <lastmod>2025-11-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tags/poster/</loc>
+    <loc>/tags/poster/</loc>
     <lastmod>2025-11-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tags/temporal-logic/</loc>
+    <loc>/tags/temporal-logic/</loc>
     <lastmod>2025-11-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/publication/bridging-logic-and-learning/</loc>
+    <loc>/publication/bridging-logic-and-learning/</loc>
     <lastmod>2025-07-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/project/stldec/</loc>
+    <loc>/project/stldec/</loc>
     <lastmod>2025-07-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/teaching/probabilistic-ml/</loc>
+    <loc>/teaching/probabilistic-ml/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/teaching/</loc>
+    <loc>/teaching/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tags/benchmarking/</loc>
+    <loc>/tags/benchmarking/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/tags/evaluation/</loc>
+    <loc>/tags/evaluation/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/project/overref/</loc>
+    <loc>/project/overref/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/projects/</loc>
+    <loc>/projects/</loc>
     <lastmod>2024-05-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/experience/</loc>
+    <loc>/experience/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/post/</loc>
+    <loc>/post/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:1313/news/</loc>
+    <loc>/news/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

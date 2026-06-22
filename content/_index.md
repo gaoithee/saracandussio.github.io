@@ -42,9 +42,6 @@ sections:
     content:
       title: Talks
       page_type: event
-      filters:
-        folders:
-          - event
     design:
       view: article-grid
       columns: 2
@@ -52,7 +49,6 @@ sections:
     id: news
     content:
       title: News
-      page_type: news
       filters:
         folders:
           - news
@@ -86,7 +82,7 @@ sections:
       filters:
         folders:
           - publication
-        exclude_featured: false
+        exclude_featured: true
     design:
       view: citation
 ---

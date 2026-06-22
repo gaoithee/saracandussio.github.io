@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Temporal Logic | Sara Candussio</title>
-    <link>//localhost:1313/tags/temporal-logic/</link>
-      <atom:link href="//localhost:1313/tags/temporal-logic/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/temporal-logic/</link>
+      <atom:link href="/tags/temporal-logic/index.xml" rel="self" type="application/rss+xml" />
     <description>Temporal Logic</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Nov 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>//localhost:1313/media/icon_hu_5c64a4bee4457df8.png</url>
+      <url>/media/icon_hu_5c64a4bee4457df8.png</url>
       <title>Temporal Logic</title>
-      <link>//localhost:1313/tags/temporal-logic/</link>
+      <link>/tags/temporal-logic/</link>
     </image>
     
     <item>
       <title>Bridging Logic and Learning: Decoding Temporal Logic Embeddings via Transformers</title>
-      <link>//localhost:1313/event/dagstuhl-rtg-symposium/</link>
+      <link>/event/dagstuhl-rtg-symposium/</link>
       <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/event/dagstuhl-rtg-symposium/</guid>
+      <guid>/event/dagstuhl-rtg-symposium/</guid>
       <description>&lt;p&gt;Poster presentation of our ECML-PKDD 2025 paper at the RTG Symposium, held at the legendary 
  — a week-long gathering of PhD researchers from Max Planck Institute and Saarland University, with guest talks by 
  and 
@@ -26,9 +26,9 @@
     
     <item>
       <title>Bridging Logic and Learning: Decoding Temporal Logic Embeddings via Transformers</title>
-      <link>//localhost:1313/publication/bridging-logic-and-learning/</link>
+      <link>/publication/bridging-logic-and-learning/</link>
       <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/publication/bridging-logic-and-learning/</guid>
+      <guid>/publication/bridging-logic-and-learning/</guid>
       <description>&lt;p&gt;This work introduces a Transformer-based decoder that inverts embeddings of Signal Temporal Logic (STL) formulae. By constructing a small STL vocabulary, the model can generate valid formulae quickly, generalize across semantic structures, and simplify formulas while preserving their meaning. Our methodology is evaluated across varying formula complexity and applied to requirement mining tasks, performing optimization directly in the semantic space.&lt;/p&gt;
 &lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;

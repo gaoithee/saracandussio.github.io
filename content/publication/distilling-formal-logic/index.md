@@ -17,7 +17,7 @@ tags:
   - Signal Temporal Logic
   - Transformers
   - Kernel Methods
-featured: false
+featured: true
 links:
 - name: arXiv page
   url: "https://arxiv.org/abs/2603.05198"

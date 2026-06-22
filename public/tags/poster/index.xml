@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Poster | Sara Candussio</title>
-    <link>//localhost:1313/tags/poster/</link>
-      <atom:link href="//localhost:1313/tags/poster/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/poster/</link>
+      <atom:link href="/tags/poster/index.xml" rel="self" type="application/rss+xml" />
     <description>Poster</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Nov 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>//localhost:1313/media/icon_hu_5c64a4bee4457df8.png</url>
+      <url>/media/icon_hu_5c64a4bee4457df8.png</url>
       <title>Poster</title>
-      <link>//localhost:1313/tags/poster/</link>
+      <link>/tags/poster/</link>
     </image>
     
     <item>
       <title>Bridging Logic and Learning: Decoding Temporal Logic Embeddings via Transformers</title>
-      <link>//localhost:1313/event/dagstuhl-rtg-symposium/</link>
+      <link>/event/dagstuhl-rtg-symposium/</link>
       <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/event/dagstuhl-rtg-symposium/</guid>
+      <guid>/event/dagstuhl-rtg-symposium/</guid>
       <description>&lt;p&gt;Poster presentation of our ECML-PKDD 2025 paper at the RTG Symposium, held at the legendary 
  — a week-long gathering of PhD researchers from Max Planck Institute and Saarland University, with guest talks by 
  and 

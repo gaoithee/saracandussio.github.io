@@ -2,21 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sara Candussio</title>
-    <link>//localhost:1313/</link>
-      <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Sara Candussio</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>//localhost:1313/media/icon_hu_5c64a4bee4457df8.png</url>
+      <url>/media/icon_hu_5c64a4bee4457df8.png</url>
       <title>Sara Candussio</title>
-      <link>//localhost:1313/</link>
+      <link>/</link>
     </image>
     
     <item>
+      <title>Beyond the Commitment Boundary: Probing Epiphenomenal Chain-of-Thought in Large Reasoning Models</title>
+      <link>/publication/commitment-boundary/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/publication/commitment-boundary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RogueAI: A Reverse Turing Test for Detecting Licensed AI Deception in Dialogue</title>
+      <link>/publication/rogue-ai/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/publication/rogue-ai/</guid>
+      <description>&lt;p&gt;Accepted at &lt;strong&gt;CLiC-it 2026&lt;/strong&gt; 🎉&lt;/p&gt;
+&lt;h2 id=&#34;the-question&#34;&gt;The Question&lt;/h2&gt;
+&lt;p&gt;The original Turing Test asks: can a machine fool a human into thinking it&amp;rsquo;s a person?
+That question has aged poorly — modern LLMs pass it routinely in casual settings, and nobody
+takes this as evidence of intelligence.&lt;/p&gt;
+&lt;p&gt;The interesting question has shifted: &lt;strong&gt;can you tell when an AI is lying to you?&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;what-we-built&#34;&gt;What We Built&lt;/h2&gt;
+&lt;p&gt;RogueAI is a playable detective game. You interrogate two LLM agents — one is truthful,
+one is licensed to deceive — and you have to figure out which is which before your turn
+budget runs out.&lt;/p&gt;
+&lt;p&gt;Both agents know the same fictional scenario (an email breach, a bank heist, a superhero
+conflict). Only one of them is lying. Neither tells you which.&lt;/p&gt;
+&lt;p&gt;We also built &lt;strong&gt;AutoRogueAI&lt;/strong&gt;, an extension where you co-design a custom scenario with a
+narrator agent — but the narrator secretly decides the deception strategy before you play.&lt;/p&gt;
+&lt;h2 id=&#34;what-we-found&#34;&gt;What We Found&lt;/h2&gt;
+&lt;p&gt;In a three-day public deployment at an Italian science festival:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;415 completed sessions&lt;/strong&gt;, 1876 interaction turns, all in Italian&lt;/li&gt;
+&lt;li&gt;Human players detected the deceptive agent at &lt;strong&gt;56.6%&lt;/strong&gt; — barely above the 50% baseline&lt;/li&gt;
+&lt;li&gt;A logistic regression on surface-level markers of the agents&amp;rsquo; responses hit &lt;strong&gt;75.6%&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The deceptive agent carries a reliable linguistic signature: shorter answers, more hedging,
+more deflection via counter-questions. A simple classifier exploits this at 75.6% accuracy.
+Human players, despite having the same information, essentially ignore it.&lt;/p&gt;
+&lt;p&gt;Even the crudest heuristic — &lt;em&gt;predict the agent with fewer words as the liar&lt;/em&gt; — beats the
+human mean at 60.8%.&lt;/p&gt;
+&lt;h2 id=&#34;why-the-gap&#34;&gt;Why the Gap?&lt;/h2&gt;
+&lt;p&gt;The most diagnostic signal is &lt;strong&gt;stylistic, not propositional&lt;/strong&gt;: it&amp;rsquo;s about &lt;em&gt;how&lt;/em&gt; the agent
+speaks, not &lt;em&gt;what&lt;/em&gt; it claims. Players who anchored on facts, made direct accusations, or
+cross-examined both agents were effectively probing content — and content is where both
+agents are equally well-informed. The signal they missed was in the form.&lt;/p&gt;
+&lt;p&gt;This gap is not primarily a finding about classifier performance. It&amp;rsquo;s a finding about
+what kind of attention humans bring to AI dialogue — and what they don&amp;rsquo;t.&lt;/p&gt;
+&lt;h2 id=&#34;why-it-matters&#34;&gt;Why It Matters&lt;/h2&gt;
+&lt;p&gt;RogueAI is designed as a reusable evaluation harness for honesty-trained models and a
+science dissemination instrument. Explaining to a general audience that LLMs can be
+fine-tuned to deceive is easier when the audience has just played against one — and can
+inspect, in retrospect, exactly where and how it did so.&lt;/p&gt;
+&lt;p&gt;The game is playable at 
+.&lt;/p&gt;
+&lt;h2 id=&#34;and-luca-bortolussi&#34;&gt;Co-authored with 
+,
+
+, 
+,
+and 
+.&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Reading Between the Tokens: Uncovering the Semantic Minima of AI Monologues</title>
-      <link>//localhost:1313/event/clcg-linguistics-lunch/</link>
+      <link>/event/clcg-linguistics-lunch/</link>
       <pubDate>Fri, 24 Apr 2026 12:05:00 +0000</pubDate>
-      <guid>//localhost:1313/event/clcg-linguistics-lunch/</guid>
+      <guid>/event/clcg-linguistics-lunch/</guid>
       <description>&lt;p&gt;Invited talk at the 
  at the University of Groningen.&lt;/p&gt;
 &lt;p&gt;Chain-of-Thought prompting asks models to reason step by step — but most of what they write is filler. This talk presents work on identifying the semantic minima of AI reasoning: the tiny subset of tokens that actually carry predictive weight, detectable in real time from the model&amp;rsquo;s internal states. Erasing up to 95% of the output leaves a sparse set of words that still perfectly predicts the correct answer.&lt;/p&gt;
@@ -25,18 +88,18 @@
     
     <item>
       <title>Distilling Formal Logic into Neural Spaces</title>
-      <link>//localhost:1313/project/stlenc/</link>
+      <link>/project/stlenc/</link>
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/project/stlenc/</guid>
+      <guid>/project/stlenc/</guid>
       <description>&lt;p&gt;Continuous neural representations of STL specifications via kernel distillation. Accepted at &lt;strong&gt;NeSy 2026&lt;/strong&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Distilling Formal Logic into Neural Spaces: A Kernel Alignment Approach for Signal Temporal Logic</title>
-      <link>//localhost:1313/publication/distilling-formal-logic/</link>
+      <link>/publication/distilling-formal-logic/</link>
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/publication/distilling-formal-logic/</guid>
+      <guid>/publication/distilling-formal-logic/</guid>
       <description>&lt;p&gt;Accepted at &lt;strong&gt;NeSy 2026&lt;/strong&gt; as an oral presentation 🎉&lt;/p&gt;
 &lt;h2 id=&#34;the-idea&#34;&gt;The Idea&lt;/h2&gt;
 &lt;p&gt;Typical knowledge distillation compresses a big neural model into a smaller one. We do something different: our &amp;ldquo;expert&amp;rdquo; isn&amp;rsquo;t a neural network at all — it&amp;rsquo;s a &lt;strong&gt;mathematical kernel built on top of formal logic&lt;/strong&gt;.&lt;/p&gt;
@@ -68,14 +131,14 @@
     
     <item>
       <title>A Dialectic Pipeline for Improving LLM Robustness</title>
-      <link>//localhost:1313/publication/dialectic-pipeline/</link>
+      <link>/publication/dialectic-pipeline/</link>
       <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/publication/dialectic-pipeline/</guid>
+      <guid>/publication/dialectic-pipeline/</guid>
       <description>&lt;p&gt;Can LLMs improve their accuracy without further training, just through a dialectic way of questioning themselves — as Hegel suggested?&lt;/p&gt;
 &lt;p&gt;This was the core question behind my Master&amp;rsquo;s thesis. The short answer: &lt;strong&gt;yes, and by a lot&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;the-idea&#34;&gt;The Idea&lt;/h2&gt;
 &lt;p&gt;Inspired by Hegelian dialectics, the pipeline structures reasoning into three stages:&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;//localhost:1313/publication/dialectic-pipeline/dialectic.png&#34;
+&lt;figure&gt;&lt;img src=&#34;/publication/dialectic-pipeline/dialectic.png&#34;
 			alt=&#34;The thesis–antithesis–synthesis pipeline.&#34;&gt;&lt;figcaption&gt;
 			&lt;p&gt;The thesis–antithesis–synthesis pipeline.&lt;/p&gt;
 		&lt;/figcaption&gt;
@@ -89,20 +152,20 @@
 &lt;p&gt;No fine-tuning. No domain-specific verifiers. Just structured self-dialogue.&lt;/p&gt;
 &lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
 &lt;p&gt;The pipeline was tested on multi-hop QA benchmarks (HotpotQA, WikiHop) across five open-source models under 20B parameters (Phi-mini, Phi-medium, Gemma-2B, Gemma-9B, LLaMA-8B).&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;//localhost:1313/publication/dialectic-pipeline/results-table.png&#34;
+&lt;figure&gt;&lt;img src=&#34;/publication/dialectic-pipeline/results-table.png&#34;
 			alt=&#34;Accuracy improvements across models on HotpotQA.&#34;&gt;&lt;figcaption&gt;
 			&lt;p&gt;Accuracy improvements across models on HotpotQA.&lt;/p&gt;
 		&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;//localhost:1313/publication/dialectic-pipeline/results-donut.png&#34;
+&lt;figure&gt;&lt;img src=&#34;/publication/dialectic-pipeline/results-donut.png&#34;
 			alt=&#34;From 53.4% to 80.7% on HotpotQA with Phi-mini (&amp;#43;27.3%).&#34;&gt;&lt;figcaption&gt;
 			&lt;p&gt;From 53.4% to 80.7% on HotpotQA with Phi-mini (+27.3%).&lt;/p&gt;
 		&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Improvements of &lt;strong&gt;up to 30%&lt;/strong&gt; on complex multi-hop questions — beating standard Chain-of-Thought prompting.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;//localhost:1313/publication/dialectic-pipeline/results-wikihop.png&#34;
+&lt;figure&gt;&lt;img src=&#34;/publication/dialectic-pipeline/results-wikihop.png&#34;
 			alt=&#34;CoT vs. pipeline on WikiHop across all models.&#34;&gt;&lt;figcaption&gt;
 			&lt;p&gt;CoT vs. pipeline on WikiHop across all models.&lt;/p&gt;
 		&lt;/figcaption&gt;
@@ -115,14 +178,14 @@
 &lt;li&gt;&lt;strong&gt;Smart filtering &amp;gt; summarization&lt;/strong&gt;: when dealing with long contexts, filtering for relevant information beats summarization, which can hurt deductive reasoning.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Avoid overthinking&lt;/strong&gt;: for simpler tasks, too much deliberation can introduce errors. A touch of &amp;ldquo;impulsivity&amp;rdquo; sometimes helps.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;figure&gt;&lt;img src=&#34;//localhost:1313/publication/dialectic-pipeline/results-context.png&#34;
+&lt;figure&gt;&lt;img src=&#34;/publication/dialectic-pipeline/results-context.png&#34;
 			alt=&#34;Original vs. summarized vs. filtered context on WikiHop.&#34;&gt;&lt;figcaption&gt;
 			&lt;p&gt;Original vs. summarized vs. filtered context on WikiHop.&lt;/p&gt;
 		&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;This work also received an &lt;strong&gt;Honorable Mention at the Emanuele Pianta Award (AILC)&lt;/strong&gt; for the best Italian NLP Master&amp;rsquo;s thesis at CLiC-it 2025. 🏆&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;//localhost:1313/publication/dialectic-pipeline/clicit.png&#34;
+&lt;figure&gt;&lt;img src=&#34;/publication/dialectic-pipeline/clicit.png&#34;
 			alt=&#34;CLiC-it 2025, Cagliari.&#34;&gt;&lt;figcaption&gt;
 			&lt;p&gt;CLiC-it 2025, Cagliari.&lt;/p&gt;
 		&lt;/figcaption&gt;
@@ -134,9 +197,9 @@
     
     <item>
       <title>Large Language Models: Potenzialità, Limiti e Sistemi Multi-Agent</title>
-      <link>//localhost:1313/event/novalia-llm-workshop/</link>
+      <link>/event/novalia-llm-workshop/</link>
       <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/event/novalia-llm-workshop/</guid>
+      <guid>/event/novalia-llm-workshop/</guid>
       <description>&lt;figure&gt;&lt;img src=&#34;novalia.png&#34;
 			alt=&#34;Workshop at Novalia, Trieste — December 2025.&#34;&gt;&lt;figcaption&gt;
 			&lt;p&gt;Workshop at Novalia, Trieste — December 2025.&lt;/p&gt;
@@ -152,9 +215,9 @@
     
     <item>
       <title>Bridging Logic and Learning: Decoding Temporal Logic Embeddings via Transformers</title>
-      <link>//localhost:1313/event/dagstuhl-rtg-symposium/</link>
+      <link>/event/dagstuhl-rtg-symposium/</link>
       <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/event/dagstuhl-rtg-symposium/</guid>
+      <guid>/event/dagstuhl-rtg-symposium/</guid>
       <description>&lt;p&gt;Poster presentation of our ECML-PKDD 2025 paper at the RTG Symposium, held at the legendary 
  — a week-long gathering of PhD researchers from Max Planck Institute and Saarland University, with guest talks by 
  and 
@@ -164,9 +227,9 @@
     
     <item>
       <title>Bridging Logic and Learning: Decoding Temporal Logic Embeddings via Transformers</title>
-      <link>//localhost:1313/publication/bridging-logic-and-learning/</link>
+      <link>/publication/bridging-logic-and-learning/</link>
       <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/publication/bridging-logic-and-learning/</guid>
+      <guid>/publication/bridging-logic-and-learning/</guid>
       <description>&lt;p&gt;This work introduces a Transformer-based decoder that inverts embeddings of Signal Temporal Logic (STL) formulae. By constructing a small STL vocabulary, the model can generate valid formulae quickly, generalize across semantic structures, and simplify formulas while preserving their meaning. Our methodology is evaluated across varying formula complexity and applied to requirement mining tasks, performing optimization directly in the semantic space.&lt;/p&gt;
 &lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
@@ -182,18 +245,18 @@
     
     <item>
       <title>STLDec: Decoding Temporal Logic Embeddings via Transformers</title>
-      <link>//localhost:1313/project/stldec/</link>
+      <link>/project/stldec/</link>
       <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/project/stldec/</guid>
+      <guid>/project/stldec/</guid>
       <description>&lt;p&gt;Transformer-based decoder for inverting semantic embeddings of Signal Temporal Logic (STL) formulae. Published at &lt;strong&gt;ECML-PKDD 2025&lt;/strong&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Probabilistic Machine Learning</title>
-      <link>//localhost:1313/teaching/probabilistic-ml/</link>
+      <link>/teaching/probabilistic-ml/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/teaching/probabilistic-ml/</guid>
+      <guid>/teaching/probabilistic-ml/</guid>
       <description>&lt;p&gt;Teaching assistant for the &lt;strong&gt;Probabilistic Machine Learning&lt;/strong&gt; MSc course at the University of Trieste (Spring 2025).&lt;/p&gt;
 &lt;p&gt;Topics covered: ERM, PAC learnability, Probabilistic Graphical Models, Hidden Markov Models, Bayesian Classification and Regression, Sampling‑based Inference, Expectation‑Maximization, Variational Inference, Generative Modeling (VAEs, Diffusion Models), Gaussian Processes.&lt;/p&gt;
 </description>
@@ -201,26 +264,26 @@
     
     <item>
       <title>OverRef: Studying Over-Refusal in Large Language Models</title>
-      <link>//localhost:1313/project/overref/</link>
+      <link>/project/overref/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/project/overref/</guid>
+      <guid>/project/overref/</guid>
       <description>&lt;p&gt;Ongoing project on &lt;strong&gt;over-refusal&lt;/strong&gt; in LLMs: studying when and why models refuse legitimate user queries, with benchmarking and dataset resources.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>//localhost:1313/projects/</link>
+      <link>/projects/</link>
       <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/</guid>
+      <guid>/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Experience</title>
-      <link>//localhost:1313/experience/</link>
+      <link>/experience/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/experience/</guid>
+      <guid>/experience/</guid>
       <description></description>
     </item>
     

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Signal Temporal Logic | Sara Candussio</title>
-    <link>//localhost:1313/tags/signal-temporal-logic/</link>
-      <atom:link href="//localhost:1313/tags/signal-temporal-logic/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/signal-temporal-logic/</link>
+      <atom:link href="/tags/signal-temporal-logic/index.xml" rel="self" type="application/rss+xml" />
     <description>Signal Temporal Logic</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>//localhost:1313/media/icon_hu_5c64a4bee4457df8.png</url>
+      <url>/media/icon_hu_5c64a4bee4457df8.png</url>
       <title>Signal Temporal Logic</title>
-      <link>//localhost:1313/tags/signal-temporal-logic/</link>
+      <link>/tags/signal-temporal-logic/</link>
     </image>
     
     <item>
       <title>Distilling Formal Logic into Neural Spaces</title>
-      <link>//localhost:1313/project/stlenc/</link>
+      <link>/project/stlenc/</link>
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/project/stlenc/</guid>
+      <guid>/project/stlenc/</guid>
       <description>&lt;p&gt;Continuous neural representations of STL specifications via kernel distillation. Accepted at &lt;strong&gt;NeSy 2026&lt;/strong&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Distilling Formal Logic into Neural Spaces: A Kernel Alignment Approach for Signal Temporal Logic</title>
-      <link>//localhost:1313/publication/distilling-formal-logic/</link>
+      <link>/publication/distilling-formal-logic/</link>
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/publication/distilling-formal-logic/</guid>
+      <guid>/publication/distilling-formal-logic/</guid>
       <description>&lt;p&gt;Accepted at &lt;strong&gt;NeSy 2026&lt;/strong&gt; as an oral presentation 🎉&lt;/p&gt;
 &lt;h2 id=&#34;the-idea&#34;&gt;The Idea&lt;/h2&gt;
 &lt;p&gt;Typical knowledge distillation compresses a big neural model into a smaller one. We do something different: our &amp;ldquo;expert&amp;rdquo; isn&amp;rsquo;t a neural network at all — it&amp;rsquo;s a &lt;strong&gt;mathematical kernel built on top of formal logic&lt;/strong&gt;.&lt;/p&gt;
@@ -57,9 +57,9 @@
     
     <item>
       <title>STLDec: Decoding Temporal Logic Embeddings via Transformers</title>
-      <link>//localhost:1313/project/stldec/</link>
+      <link>/project/stldec/</link>
       <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/project/stldec/</guid>
+      <guid>/project/stldec/</guid>
       <description>&lt;p&gt;Transformer-based decoder for inverting semantic embeddings of Signal Temporal Logic (STL) formulae. Published at &lt;strong&gt;ECML-PKDD 2025&lt;/strong&gt;.&lt;/p&gt;
 </description>
     </item>

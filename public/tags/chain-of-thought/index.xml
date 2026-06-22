@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chain of Thought | Sara Candussio</title>
-    <link>//localhost:1313/tags/chain-of-thought/</link>
-      <atom:link href="//localhost:1313/tags/chain-of-thought/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/chain-of-thought/</link>
+      <atom:link href="/tags/chain-of-thought/index.xml" rel="self" type="application/rss+xml" />
     <description>Chain of Thought</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 24 Apr 2026 12:05:00 +0000</lastBuildDate>
     <image>
-      <url>//localhost:1313/media/icon_hu_5c64a4bee4457df8.png</url>
+      <url>/media/icon_hu_5c64a4bee4457df8.png</url>
       <title>Chain of Thought</title>
-      <link>//localhost:1313/tags/chain-of-thought/</link>
+      <link>/tags/chain-of-thought/</link>
     </image>
     
     <item>
       <title>Reading Between the Tokens: Uncovering the Semantic Minima of AI Monologues</title>
-      <link>//localhost:1313/event/clcg-linguistics-lunch/</link>
+      <link>/event/clcg-linguistics-lunch/</link>
       <pubDate>Fri, 24 Apr 2026 12:05:00 +0000</pubDate>
-      <guid>//localhost:1313/event/clcg-linguistics-lunch/</guid>
+      <guid>/event/clcg-linguistics-lunch/</guid>
       <description>&lt;p&gt;Invited talk at the 
  at the University of Groningen.&lt;/p&gt;
 &lt;p&gt;Chain-of-Thought prompting asks models to reason step by step — but most of what they write is filler. This talk presents work on identifying the semantic minima of AI reasoning: the tiny subset of tokens that actually carry predictive weight, detectable in real time from the model&amp;rsquo;s internal states. Erasing up to 95% of the output leaves a sparse set of words that still perfectly predicts the correct answer.&lt;/p&gt;

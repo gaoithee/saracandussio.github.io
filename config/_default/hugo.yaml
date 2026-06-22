@@ -50,6 +50,13 @@ markup:
   _merge: deep
   highlight:
     lineNos: false
+  goldmark:
+    renderer:
+      unsafe: true
+    renderHooks:
+      link:
+        _merge: none
+        useEmbedded: fallback
 security:
   _merge: deep
 sitemap:
