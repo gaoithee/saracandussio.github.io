@@ -1,6 +1,6 @@
 {{ define "views/article-grid" }}
   <div class="grid grid-cols-2 gap-4">
-    {{ range .Data.Pages }}
+    {{ range .pages }}
       <div class="article-item">
         <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
         <p>{{ .Summary }}</p>

@@ -7,7 +7,7 @@
     <description>Neuro-Symbolic AI</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>//localhost:1313/media/icon_hu_4bc81f2edf496b34.png</url>
+      <url>//localhost:1313/media/icon_hu_5c64a4bee4457df8.png</url>
       <title>Neuro-Symbolic AI</title>
       <link>//localhost:1313/tags/neuro-symbolic-ai/</link>
     </image>
@@ -26,7 +26,45 @@
       <link>//localhost:1313/publication/distilling-formal-logic/</link>
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/publication/distilling-formal-logic/</guid>
-      <description></description>
+      <description>&lt;p&gt;Accepted at &lt;strong&gt;NeSy 2026&lt;/strong&gt; as an oral presentation 🎉&lt;/p&gt;
+&lt;h2 id=&#34;the-idea&#34;&gt;The Idea&lt;/h2&gt;
+&lt;p&gt;Typical knowledge distillation compresses a big neural model into a smaller one. We do something different: our &amp;ldquo;expert&amp;rdquo; isn&amp;rsquo;t a neural network at all — it&amp;rsquo;s a &lt;strong&gt;mathematical kernel built on top of formal logic&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;This kernel is provably correct: it captures the true meaning of logical formulas with mathematical guarantees. The problem? It&amp;rsquo;s expensive to compute and doesn&amp;rsquo;t scale.&lt;/p&gt;
+&lt;p&gt;So instead of distilling a big neural model into a smaller neural model, we &lt;strong&gt;distill the geometric structure&lt;/strong&gt; (i.e. relative positions) of a symbolic kernel into a Transformer encoder. We&amp;rsquo;re not compressing parameters — we&amp;rsquo;re transferring mathematical meaning into neural space.&lt;/p&gt;
+&lt;p&gt;Using a teacher-student setup with a kernel-weighted geometric alignment objective, we train the encoder to mirror the semantic distances defined by the symbolic kernel. Errors are penalized proportionally to their semantic discrepancy — not just their magnitude.&lt;/p&gt;
+&lt;h2 id=&#34;why-it-matters&#34;&gt;Why It Matters&lt;/h2&gt;
+&lt;p&gt;The result is a model that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;runs in a &lt;strong&gt;single forward pass&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;produces &lt;strong&gt;semantically faithful embeddings&lt;/strong&gt; of logical formulas&lt;/li&gt;
+&lt;li&gt;can &lt;strong&gt;reconstruct the original formula&lt;/strong&gt; from its embedding&lt;/li&gt;
+&lt;li&gt;all without sacrificing the logical guarantees of the original kernel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This opens up scalable, trustworthy neuro-symbolic reasoning for domains where correctness and efficiency aren&amp;rsquo;t optional:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🚗 Autonomous driving &amp;amp; robotics (real-time monitoring of safety specs)&lt;/li&gt;
+&lt;li&gt;🏥 Healthcare (checking patient signals against clinical guidelines)&lt;/li&gt;
+&lt;li&gt;⚙️ Cyber-physical systems (fast verification &amp;amp; control synthesis)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And beyond STL, this approach generalizes to &lt;strong&gt;any domain with a meaningful but expensive similarity function&lt;/strong&gt; — think genomic sequences, molecular graphs, or structured data where semantics matter more than surface form.&lt;/p&gt;
+&lt;p&gt;Co-authored with 
+, 
+, and 
+.&lt;/p&gt;
+&lt;p&gt;If you want to explore how to transfer a slow, expensive similarity function into Transformers — let&amp;rsquo;s connect!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bridging Logic and Learning: Decoding Temporal Logic Embeddings via Transformers</title>
+      <link>//localhost:1313/event/dagstuhl-rtg-symposium/</link>
+      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/event/dagstuhl-rtg-symposium/</guid>
+      <description>&lt;p&gt;Poster presentation of our ECML-PKDD 2025 paper at the RTG Symposium, held at the legendary 
+ — a week-long gathering of PhD researchers from Max Planck Institute and Saarland University, with guest talks by 
+ and 
+.&lt;/p&gt;
+</description>
     </item>
     
     <item>

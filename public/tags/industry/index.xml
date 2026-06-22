@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Industry | Sara Candussio</title>
+    <link>//localhost:1313/tags/industry/</link>
+      <atom:link href="//localhost:1313/tags/industry/index.xml" rel="self" type="application/rss+xml" />
+    <description>Industry</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 15 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>//localhost:1313/media/icon_hu_5c64a4bee4457df8.png</url>
+      <title>Industry</title>
+      <link>//localhost:1313/tags/industry/</link>
+    </image>
+    
+    <item>
+      <title>Large Language Models: Potenzialità, Limiti e Sistemi Multi-Agent</title>
+      <link>//localhost:1313/event/novalia-llm-workshop/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/event/novalia-llm-workshop/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;novalia.png&#34;
+			alt=&#34;Workshop at Novalia, Trieste — December 2025.&#34;&gt;&lt;figcaption&gt;
+			&lt;p&gt;Workshop at Novalia, Trieste — December 2025.&lt;/p&gt;
+		&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Part of a two-session seminar series on digital transformation, co-organized with 
+ and the University of Trieste.&lt;/p&gt;
+&lt;p&gt;This session covered the inner workings of Large Language Models, multi-agent architectures, and fine-tuning strategies — with an eye toward practical business applications and a frank discussion of current limitations.&lt;/p&gt;
+&lt;p&gt;The core message: the challenge isn&amp;rsquo;t just adopting AI, but integrating it strategically to augment rather than replace human potential.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

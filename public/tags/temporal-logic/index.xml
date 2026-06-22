@@ -5,12 +5,24 @@
     <link>//localhost:1313/tags/temporal-logic/</link>
       <atom:link href="//localhost:1313/tags/temporal-logic/index.xml" rel="self" type="application/rss+xml" />
     <description>Temporal Logic</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 10 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Nov 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>//localhost:1313/media/icon_hu_4bc81f2edf496b34.png</url>
+      <url>//localhost:1313/media/icon_hu_5c64a4bee4457df8.png</url>
       <title>Temporal Logic</title>
       <link>//localhost:1313/tags/temporal-logic/</link>
     </image>
+    
+    <item>
+      <title>Bridging Logic and Learning: Decoding Temporal Logic Embeddings via Transformers</title>
+      <link>//localhost:1313/event/dagstuhl-rtg-symposium/</link>
+      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/event/dagstuhl-rtg-symposium/</guid>
+      <description>&lt;p&gt;Poster presentation of our ECML-PKDD 2025 paper at the RTG Symposium, held at the legendary 
+ — a week-long gathering of PhD researchers from Max Planck Institute and Saarland University, with guest talks by 
+ and 
+.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Bridging Logic and Learning: Decoding Temporal Logic Embeddings via Transformers</title>
