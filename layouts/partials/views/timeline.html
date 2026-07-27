@@ -1,0 +1,48 @@
+{{ $item := .item }}
+{{ $page := .page }}
+
+{{ if and $item $item.Title }}
+
+{{ $summary := $item.Params.summary | default $item.Params.description | default $item.Summary }}
+{{ $summary = $summary | page.RenderString }}
+
+{{ $href := $item.Params.external_url | default $item.RelPermalink }}
+{{ $is_external := findRE "^https?://" $href }}
+
+{{ $date_fmt := site.Params.locale.date_format | default ":date_long" }}
+{{ $date_text := time.Format $date_fmt $item.Date }}
+{{ with $item.Params.date_end }}
+  {{ $date_text = printf "%s – %s" ($date_text) (time.Format $date_fmt .) }}
+{{ end }}
+
+<article class="relative pl-8 sm:grid sm:grid-cols-[135px_1fr] sm:gap-6 sm:pl-0">
+
+  {{/* Dot on the timeline */}}
+  <span class="absolute left-0 top-1.5 h-[15px] w-[15px] rounded-full border-2 border-primary-500 bg-white dark:bg-gray-900 sm:left-[128px]"></span>
+
+  {{/* Date column (desktop) */}}
+  <time class="hidden sm:block sm:pt-0.5 sm:text-right text-sm font-medium text-gray-500 dark:text-gray-400 whitespace-nowrap"
+        datetime="{{ time.Format "2006-01-02" $item.Date }}">
+    {{ $date_text }}
+  </time>
+
+  <div>
+    {{/* Date (mobile) */}}
+    <time class="sm:hidden mb-1 block text-xs font-medium text-gray-500 dark:text-gray-400"
+          datetime="{{ time.Format "2006-01-02" $item.Date }}">
+      {{ $date_text }}
+    </time>
+
+    <h3 class="text-base font-semibold leading-snug text-gray-900 dark:text-white">
+      <a href="{{ $href }}"{{ if $is_external }} target="_blank" rel="noopener"{{ end }} class="hover:text-primary-600 dark:hover:text-primary-300">
+        {{ $item.Title | emojify }}
+      </a>
+    </h3>
+
+    {{ if $summary }}
+    <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">{{ $summary }}</p>
+    {{ end }}
+  </div>
+</article>
+
+{{ end }}

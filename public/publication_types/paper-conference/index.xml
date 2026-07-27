@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paper-Conference | Sara Candussio</title>
-    <link>/publication_types/paper-conference/</link>
-      <atom:link href="/publication_types/paper-conference/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:1313/publication_types/paper-conference/</link>
+      <atom:link href="//localhost:1313/publication_types/paper-conference/index.xml" rel="self" type="application/rss+xml" />
     <description>Paper-Conference</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu_5c64a4bee4457df8.png</url>
+      <url>//localhost:1313/media/icon_hu_5c64a4bee4457df8.png</url>
       <title>Paper-Conference</title>
-      <link>/publication_types/paper-conference/</link>
+      <link>//localhost:1313/publication_types/paper-conference/</link>
     </image>
     
     <item>
       <title>RogueAI: A Reverse Turing Test for Detecting Licensed AI Deception in Dialogue</title>
-      <link>/publication/rogue-ai/</link>
+      <link>//localhost:1313/publication/rogue-ai/</link>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>/publication/rogue-ai/</guid>
+      <guid>//localhost:1313/publication/rogue-ai/</guid>
       <description>&lt;p&gt;Accepted at &lt;strong&gt;CLiC-it 2026&lt;/strong&gt; 🎉&lt;/p&gt;
 &lt;h2 id=&#34;the-question&#34;&gt;The Question&lt;/h2&gt;
 &lt;p&gt;The original Turing Test asks: can a machine fool a human into thinking it&amp;rsquo;s a person?
@@ -69,9 +69,9 @@ and
     
     <item>
       <title>Distilling Formal Logic into Neural Spaces: A Kernel Alignment Approach for Signal Temporal Logic</title>
-      <link>/publication/distilling-formal-logic/</link>
+      <link>//localhost:1313/publication/distilling-formal-logic/</link>
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>/publication/distilling-formal-logic/</guid>
+      <guid>//localhost:1313/publication/distilling-formal-logic/</guid>
       <description>&lt;p&gt;Accepted at &lt;strong&gt;NeSy 2026&lt;/strong&gt; as an oral presentation 🎉&lt;/p&gt;
 &lt;h2 id=&#34;the-idea&#34;&gt;The Idea&lt;/h2&gt;
 &lt;p&gt;Typical knowledge distillation compresses a big neural model into a smaller one. We do something different: our &amp;ldquo;expert&amp;rdquo; isn&amp;rsquo;t a neural network at all — it&amp;rsquo;s a &lt;strong&gt;mathematical kernel built on top of formal logic&lt;/strong&gt;.&lt;/p&gt;
@@ -103,9 +103,9 @@ and
     
     <item>
       <title>Bridging Logic and Learning: Decoding Temporal Logic Embeddings via Transformers</title>
-      <link>/publication/bridging-logic-and-learning/</link>
+      <link>//localhost:1313/publication/bridging-logic-and-learning/</link>
       <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>/publication/bridging-logic-and-learning/</guid>
+      <guid>//localhost:1313/publication/bridging-logic-and-learning/</guid>
       <description>&lt;p&gt;This work introduces a Transformer-based decoder that inverts embeddings of Signal Temporal Logic (STL) formulae. By constructing a small STL vocabulary, the model can generate valid formulae quickly, generalize across semantic structures, and simplify formulas while preserving their meaning. Our methodology is evaluated across varying formula complexity and applied to requirement mining tasks, performing optimization directly in the semantic space.&lt;/p&gt;
 &lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;

@@ -8,7 +8,7 @@ last_name: Candussio
 superuser: true
 highlight_name: true
 
-role: PhD student
+role: PhD Student (2nd year)
 
 organizations:
   - name: AI Lab, University of Trieste
@@ -61,6 +61,15 @@ education:
       Thesis on _Beta‑binomial regression model for inferring the number of BSc graduate students in Italian universities_, supervised by [Francesco Pauli](https://deams.units.it/en/node/1330), awarded 110/110 cum laude.
 
 work:
+  - position: Visiting Researcher
+    company_name: Center for Language and Cognition (CLCG), University of Groningen
+    company_url: 'https://www.rug.nl/research/clcg/'
+    company_logo: ''
+    date_start: 2025-03-01
+    date_end: 2026-07-14
+    summary: |
+      Visiting researcher at CLCG, collaborating with [Gabriele Sarti](https://gsarti.com/).
+
   - position: Research Scientist Intern
     company_name: Rachael S.r.l.
     company_url: 'https://rachael.swg.it/'
@@ -104,38 +113,53 @@ skills:
     items:
       - name: Python
         percent: 90
+        icon: python
       - name: R
         percent: 100
+        icon: r-language
       - name: Bash/Linux
         percent: 70
+        icon: terminal
       - name: Git/GitHub
         percent: 80
+        icon: code-bracket-square
       - name: LaTeX
         percent: 90
+        icon: document-text
       - name: Weights & Biases
         percent: 75
+        icon: wandb
 
   - name: Machine Learning & NLP
     items:
       - name: PyTorch
         percent: 95
+        icon: pytorch
       - name: Transformers/HuggingFace
         percent: 90
+        icon: huggingface
+        icon_pack: custom
       - name: NLP Tasks (NLI, SA, ...)
         percent: 85
+        icon: language
       - name: Evaluation & Benchmarking
         percent: 90
+        icon: chart-line
 
   - name: Data & Statistical Tools
     items:
       - name: Pandas/NumPy
         percent: 95
+        icon: chart-bar
       - name: Scikit-Learn
         percent: 90
+        icon: cube
       - name: Statistical Modeling
         percent: 100
+        icon: calculator
       - name: SQL
         percent: 80
+        icon: circle-stack
 
   - name: Any Other Business
     items:

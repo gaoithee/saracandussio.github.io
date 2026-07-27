@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Human-AI Interaction | Sara Candussio</title>
-    <link>/tags/human-ai-interaction/</link>
-      <atom:link href="/tags/human-ai-interaction/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:1313/tags/human-ai-interaction/</link>
+      <atom:link href="//localhost:1313/tags/human-ai-interaction/index.xml" rel="self" type="application/rss+xml" />
     <description>Human-AI Interaction</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu_5c64a4bee4457df8.png</url>
+      <url>//localhost:1313/media/icon_hu_5c64a4bee4457df8.png</url>
       <title>Human-AI Interaction</title>
-      <link>/tags/human-ai-interaction/</link>
+      <link>//localhost:1313/tags/human-ai-interaction/</link>
     </image>
     
     <item>
       <title>RogueAI: A Reverse Turing Test for Detecting Licensed AI Deception in Dialogue</title>
-      <link>/publication/rogue-ai/</link>
+      <link>//localhost:1313/publication/rogue-ai/</link>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>/publication/rogue-ai/</guid>
+      <guid>//localhost:1313/publication/rogue-ai/</guid>
       <description>&lt;p&gt;Accepted at &lt;strong&gt;CLiC-it 2026&lt;/strong&gt; 🎉&lt;/p&gt;
 &lt;h2 id=&#34;the-question&#34;&gt;The Question&lt;/h2&gt;
 &lt;p&gt;The original Turing Test asks: can a machine fool a human into thinking it&amp;rsquo;s a person?

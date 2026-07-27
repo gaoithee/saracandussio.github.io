@@ -95,6 +95,17 @@
 <div class="flex flex-col items-center px-6">
 
   {{ $config := dict "columns" ($block.design.columns | default 2) "len" (len $query) "fill_image" ($block.design.fill_image | default true) }}
+
+  {{ if eq $view "timeline" }}
+
+    {{ partial "views/timeline.start" (dict "page" $block) }}
+    {{ range $index, $item := $query }}
+      {{ partial "views/timeline" (dict "page" $block "item" . "index" $index "config" $config) }}
+    {{ end }}
+    {{ partial "views/timeline.end" (dict "page" $block) }}
+
+  {{ else }}
+
   <div class="container px-8 mx-auto xl:px-5 py-5 lg:py-8 max-w-screen-lg"><div class="grid gap-10 md:grid-cols-2 lg:gap-10">
 
   {{ range $index, $item := $query }}
@@ -102,6 +113,8 @@
   {{end}}
 
   </div></div>
+
+  {{ end }}
 
 </div>
 

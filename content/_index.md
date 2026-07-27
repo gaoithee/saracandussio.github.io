@@ -49,11 +49,12 @@ sections:
     id: news
     content:
       title: News
+      count: 0
       filters:
         folders:
           - news
     design:
-      view: citation
+      view: timeline
       columns: 1
   - block: collection
     id: teaching
@@ -67,7 +68,7 @@ sections:
     id: papers
     content:
       title: Featured Publications
-      page_type: publications
+      page_type: publication
       filters:
         folders:
           - publication

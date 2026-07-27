@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thesis | Sara Candussio</title>
-    <link>/publication_types/thesis/</link>
-      <atom:link href="/publication_types/thesis/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:1313/publication_types/thesis/</link>
+      <atom:link href="//localhost:1313/publication_types/thesis/index.xml" rel="self" type="application/rss+xml" />
     <description>Thesis</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 28 Jan 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu_5c64a4bee4457df8.png</url>
+      <url>//localhost:1313/media/icon_hu_5c64a4bee4457df8.png</url>
       <title>Thesis</title>
-      <link>/publication_types/thesis/</link>
+      <link>//localhost:1313/publication_types/thesis/</link>
     </image>
     
     <item>
       <title>A Dialectic Pipeline for Improving LLM Robustness</title>
-      <link>/publication/dialectic-pipeline/</link>
+      <link>//localhost:1313/publication/dialectic-pipeline/</link>
       <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>/publication/dialectic-pipeline/</guid>
+      <guid>//localhost:1313/publication/dialectic-pipeline/</guid>
       <description>&lt;p&gt;Can LLMs improve their accuracy without further training, just through a dialectic way of questioning themselves — as Hegel suggested?&lt;/p&gt;
 &lt;p&gt;This was the core question behind my Master&amp;rsquo;s thesis. The short answer: &lt;strong&gt;yes, and by a lot&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;the-idea&#34;&gt;The Idea&lt;/h2&gt;
 &lt;p&gt;Inspired by Hegelian dialectics, the pipeline structures reasoning into three stages:&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;/publication/dialectic-pipeline/dialectic.png&#34;
+&lt;figure&gt;&lt;img src=&#34;//localhost:1313/publication/dialectic-pipeline/dialectic.png&#34;
 			alt=&#34;The thesis–antithesis–synthesis pipeline.&#34;&gt;&lt;figcaption&gt;
 			&lt;p&gt;The thesis–antithesis–synthesis pipeline.&lt;/p&gt;
 		&lt;/figcaption&gt;
@@ -35,20 +35,20 @@
 &lt;p&gt;No fine-tuning. No domain-specific verifiers. Just structured self-dialogue.&lt;/p&gt;
 &lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
 &lt;p&gt;The pipeline was tested on multi-hop QA benchmarks (HotpotQA, WikiHop) across five open-source models under 20B parameters (Phi-mini, Phi-medium, Gemma-2B, Gemma-9B, LLaMA-8B).&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;/publication/dialectic-pipeline/results-table.png&#34;
+&lt;figure&gt;&lt;img src=&#34;//localhost:1313/publication/dialectic-pipeline/results-table.png&#34;
 			alt=&#34;Accuracy improvements across models on HotpotQA.&#34;&gt;&lt;figcaption&gt;
 			&lt;p&gt;Accuracy improvements across models on HotpotQA.&lt;/p&gt;
 		&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;/publication/dialectic-pipeline/results-donut.png&#34;
+&lt;figure&gt;&lt;img src=&#34;//localhost:1313/publication/dialectic-pipeline/results-donut.png&#34;
 			alt=&#34;From 53.4% to 80.7% on HotpotQA with Phi-mini (&amp;#43;27.3%).&#34;&gt;&lt;figcaption&gt;
 			&lt;p&gt;From 53.4% to 80.7% on HotpotQA with Phi-mini (+27.3%).&lt;/p&gt;
 		&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Improvements of &lt;strong&gt;up to 30%&lt;/strong&gt; on complex multi-hop questions — beating standard Chain-of-Thought prompting.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;/publication/dialectic-pipeline/results-wikihop.png&#34;
+&lt;figure&gt;&lt;img src=&#34;//localhost:1313/publication/dialectic-pipeline/results-wikihop.png&#34;
 			alt=&#34;CoT vs. pipeline on WikiHop across all models.&#34;&gt;&lt;figcaption&gt;
 			&lt;p&gt;CoT vs. pipeline on WikiHop across all models.&lt;/p&gt;
 		&lt;/figcaption&gt;
@@ -61,14 +61,14 @@
 &lt;li&gt;&lt;strong&gt;Smart filtering &amp;gt; summarization&lt;/strong&gt;: when dealing with long contexts, filtering for relevant information beats summarization, which can hurt deductive reasoning.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Avoid overthinking&lt;/strong&gt;: for simpler tasks, too much deliberation can introduce errors. A touch of &amp;ldquo;impulsivity&amp;rdquo; sometimes helps.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;figure&gt;&lt;img src=&#34;/publication/dialectic-pipeline/results-context.png&#34;
+&lt;figure&gt;&lt;img src=&#34;//localhost:1313/publication/dialectic-pipeline/results-context.png&#34;
 			alt=&#34;Original vs. summarized vs. filtered context on WikiHop.&#34;&gt;&lt;figcaption&gt;
 			&lt;p&gt;Original vs. summarized vs. filtered context on WikiHop.&lt;/p&gt;
 		&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;This work also received an &lt;strong&gt;Honorable Mention at the Emanuele Pianta Award (AILC)&lt;/strong&gt; for the best Italian NLP Master&amp;rsquo;s thesis at CLiC-it 2025. 🏆&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;/publication/dialectic-pipeline/clicit.png&#34;
+&lt;figure&gt;&lt;img src=&#34;//localhost:1313/publication/dialectic-pipeline/clicit.png&#34;
 			alt=&#34;CLiC-it 2025, Cagliari.&#34;&gt;&lt;figcaption&gt;
 			&lt;p&gt;CLiC-it 2025, Cagliari.&lt;/p&gt;
 		&lt;/figcaption&gt;
