@@ -7,7 +7,6 @@
 {{ $view_dtype :=  printf "%T" $view }}
 {{ $index := .index }}
 {{ $html := "" }}
-{{ warnf "RENDER_VIEW: view=%s fragment=%s" .view (.fragment | default "body") }}
 
 {{ if not (templates.Exists (printf "partials/views/%s.html" $view)) }}
   {{/* Fallback to card view */}}

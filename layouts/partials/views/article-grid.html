@@ -1,5 +1,4 @@
 {{ $item := .item }}
-{{ warnf "ARTICLE-GRID rendering: %s" .item.Title }}
 {{ $fill_image := .config.fill_image | default true }}
 
 {{ $resource := partial "functions/get_featured_image.html" $item }}
