@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Benchmarking | Sara Candussio</title>
+    <link>//localhost:1313/tags/benchmarking/</link>
+      <atom:link href="//localhost:1313/tags/benchmarking/index.xml" rel="self" type="application/rss+xml" />
+    <description>Benchmarking</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>//localhost:1313/media/icon_hu_5c64a4bee4457df8.png</url>
+      <title>Benchmarking</title>
+      <link>//localhost:1313/tags/benchmarking/</link>
+    </image>
+    
+    <item>
+      <title>OverRef: Studying Over-Refusal in Large Language Models</title>
+      <link>//localhost:1313/project/overref/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/project/overref/</guid>
+      <description>&lt;p&gt;Ongoing project on &lt;strong&gt;over-refusal&lt;/strong&gt; in LLMs: studying when and why models refuse legitimate user queries, with benchmarking and dataset resources.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

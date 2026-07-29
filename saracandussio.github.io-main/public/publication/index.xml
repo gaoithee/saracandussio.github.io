@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Sara Candussio</title>
+    <link>//localhost:1313/publication/</link>
+      <atom:link href="//localhost:1313/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>//localhost:1313/media/icon_hu_5c64a4bee4457df8.png</url>
+      <title>Publications</title>
+      <link>//localhost:1313/publication/</link>
+    </image>
+    
+    <item>
+      <title>Beyond the Commitment Boundary: Probing Epiphenomenal Chain-of-Thought in Large Reasoning Models</title>
+      <link>//localhost:1313/publication/commitment-boundary/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/commitment-boundary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RogueAI: A Reverse Turing Test for Detecting Licensed AI Deception in Dialogue</title>
+      <link>//localhost:1313/publication/rogue-ai/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/rogue-ai/</guid>
+      <description>&lt;p&gt;Accepted at &lt;strong&gt;CLiC-it 2026&lt;/strong&gt; 🎉&lt;/p&gt;
+&lt;h2 id=&#34;the-question&#34;&gt;The Question&lt;/h2&gt;
+&lt;p&gt;The original Turing Test asks: can a machine fool a human into thinking it&amp;rsquo;s a person?
+That question has aged poorly — modern LLMs pass it routinely in casual settings, and nobody
+takes this as evidence of intelligence.&lt;/p&gt;
+&lt;p&gt;The interesting question has shifted: &lt;strong&gt;can you tell when an AI is lying to you?&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;what-we-built&#34;&gt;What We Built&lt;/h2&gt;
+&lt;p&gt;RogueAI is a playable detective game. You interrogate two LLM agents — one is truthful,
+one is licensed to deceive — and you have to figure out which is which before your turn
+budget runs out.&lt;/p&gt;
+&lt;p&gt;Both agents know the same fictional scenario (an email breach, a bank heist, a superhero
+conflict). Only one of them is lying. Neither tells you which.&lt;/p&gt;
+&lt;p&gt;We also built &lt;strong&gt;AutoRogueAI&lt;/strong&gt;, an extension where you co-design a custom scenario with a
+narrator agent — but the narrator secretly decides the deception strategy before you play.&lt;/p&gt;
+&lt;h2 id=&#34;what-we-found&#34;&gt;What We Found&lt;/h2&gt;
+&lt;p&gt;In a three-day public deployment at an Italian science festival:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;415 completed sessions&lt;/strong&gt;, 1876 interaction turns, all in Italian&lt;/li&gt;
+&lt;li&gt;Human players detected the deceptive agent at &lt;strong&gt;56.6%&lt;/strong&gt; — barely above the 50% baseline&lt;/li&gt;
+&lt;li&gt;A logistic regression on surface-level markers of the agents&amp;rsquo; responses hit &lt;strong&gt;75.6%&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The deceptive agent carries a reliable linguistic signature: shorter answers, more hedging,
+more deflection via counter-questions. A simple classifier exploits this at 75.6% accuracy.
+Human players, despite having the same information, essentially ignore it.&lt;/p&gt;
+&lt;p&gt;Even the crudest heuristic — &lt;em&gt;predict the agent with fewer words as the liar&lt;/em&gt; — beats the
+human mean at 60.8%.&lt;/p&gt;
+&lt;h2 id=&#34;why-the-gap&#34;&gt;Why the Gap?&lt;/h2&gt;
+&lt;p&gt;The most diagnostic signal is &lt;strong&gt;stylistic, not propositional&lt;/strong&gt;: it&amp;rsquo;s about &lt;em&gt;how&lt;/em&gt; the agent
+speaks, not &lt;em&gt;what&lt;/em&gt; it claims. Players who anchored on facts, made direct accusations, or
+cross-examined both agents were effectively probing content — and content is where both
+agents are equally well-informed. The signal they missed was in the form.&lt;/p&gt;
+&lt;p&gt;This gap is not primarily a finding about classifier performance. It&amp;rsquo;s a finding about
+what kind of attention humans bring to AI dialogue — and what they don&amp;rsquo;t.&lt;/p&gt;
+&lt;h2 id=&#34;why-it-matters&#34;&gt;Why It Matters&lt;/h2&gt;
+&lt;p&gt;RogueAI is designed as a reusable evaluation harness for honesty-trained models and a
+science dissemination instrument. Explaining to a general audience that LLMs can be
+fine-tuned to deceive is easier when the audience has just played against one — and can
+inspect, in retrospect, exactly where and how it did so.&lt;/p&gt;
+&lt;p&gt;The game is playable at 
+.&lt;/p&gt;
+&lt;h2 id=&#34;and-luca-bortolussi&#34;&gt;Co-authored with 
+,
+
+, 
+,
+and 
+.&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Distilling Formal Logic into Neural Spaces: A Kernel Alignment Approach for Signal Temporal Logic</title>
+      <link>//localhost:1313/publication/distilling-formal-logic/</link>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/distilling-formal-logic/</guid>
+      <description>&lt;p&gt;Accepted at &lt;strong&gt;NeSy 2026&lt;/strong&gt; as an oral presentation 🎉&lt;/p&gt;
+&lt;h2 id=&#34;the-idea&#34;&gt;The Idea&lt;/h2&gt;
+&lt;p&gt;Typical knowledge distillation compresses a big neural model into a smaller one. We do something different: our &amp;ldquo;expert&amp;rdquo; isn&amp;rsquo;t a neural network at all — it&amp;rsquo;s a &lt;strong&gt;mathematical kernel built on top of formal logic&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;This kernel is provably correct: it captures the true meaning of logical formulas with mathematical guarantees. The problem? It&amp;rsquo;s expensive to compute and doesn&amp;rsquo;t scale.&lt;/p&gt;
+&lt;p&gt;So instead of distilling a big neural model into a smaller neural model, we &lt;strong&gt;distill the geometric structure&lt;/strong&gt; (i.e. relative positions) of a symbolic kernel into a Transformer encoder. We&amp;rsquo;re not compressing parameters — we&amp;rsquo;re transferring mathematical meaning into neural space.&lt;/p&gt;
+&lt;p&gt;Using a teacher-student setup with a kernel-weighted geometric alignment objective, we train the encoder to mirror the semantic distances defined by the symbolic kernel. Errors are penalized proportionally to their semantic discrepancy — not just their magnitude.&lt;/p&gt;
+&lt;h2 id=&#34;why-it-matters&#34;&gt;Why It Matters&lt;/h2&gt;
+&lt;p&gt;The result is a model that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;runs in a &lt;strong&gt;single forward pass&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;produces &lt;strong&gt;semantically faithful embeddings&lt;/strong&gt; of logical formulas&lt;/li&gt;
+&lt;li&gt;can &lt;strong&gt;reconstruct the original formula&lt;/strong&gt; from its embedding&lt;/li&gt;
+&lt;li&gt;all without sacrificing the logical guarantees of the original kernel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This opens up scalable, trustworthy neuro-symbolic reasoning for domains where correctness and efficiency aren&amp;rsquo;t optional:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🚗 Autonomous driving &amp;amp; robotics (real-time monitoring of safety specs)&lt;/li&gt;
+&lt;li&gt;🏥 Healthcare (checking patient signals against clinical guidelines)&lt;/li&gt;
+&lt;li&gt;⚙️ Cyber-physical systems (fast verification &amp;amp; control synthesis)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And beyond STL, this approach generalizes to &lt;strong&gt;any domain with a meaningful but expensive similarity function&lt;/strong&gt; — think genomic sequences, molecular graphs, or structured data where semantics matter more than surface form.&lt;/p&gt;
+&lt;p&gt;Co-authored with 
+, 
+, and 
+.&lt;/p&gt;
+&lt;p&gt;If you want to explore how to transfer a slow, expensive similarity function into Transformers — let&amp;rsquo;s connect!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Dialectic Pipeline for Improving LLM Robustness</title>
+      <link>//localhost:1313/publication/dialectic-pipeline/</link>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/dialectic-pipeline/</guid>
+      <description>&lt;p&gt;Can LLMs improve their accuracy without further training, just through a dialectic way of questioning themselves — as Hegel suggested?&lt;/p&gt;
+&lt;p&gt;This was the core question behind my Master&amp;rsquo;s thesis. The short answer: &lt;strong&gt;yes, and by a lot&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;the-idea&#34;&gt;The Idea&lt;/h2&gt;
+&lt;p&gt;Inspired by Hegelian dialectics, the pipeline structures reasoning into three stages:&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;//localhost:1313/publication/dialectic-pipeline/dialectic.png&#34;
+			alt=&#34;The thesis–antithesis–synthesis pipeline.&#34;&gt;&lt;figcaption&gt;
+			&lt;p&gt;The thesis–antithesis–synthesis pipeline.&lt;/p&gt;
+		&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Thesis&lt;/strong&gt; — the model produces an initial answer given the question, context, and options.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Antithesis&lt;/strong&gt; — the model challenges its own answer, now also seeing the thesis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Synthesis&lt;/strong&gt; — the model produces a final answer, having seen both thesis and antithesis.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;No fine-tuning. No domain-specific verifiers. Just structured self-dialogue.&lt;/p&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;The pipeline was tested on multi-hop QA benchmarks (HotpotQA, WikiHop) across five open-source models under 20B parameters (Phi-mini, Phi-medium, Gemma-2B, Gemma-9B, LLaMA-8B).&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;//localhost:1313/publication/dialectic-pipeline/results-table.png&#34;
+			alt=&#34;Accuracy improvements across models on HotpotQA.&#34;&gt;&lt;figcaption&gt;
+			&lt;p&gt;Accuracy improvements across models on HotpotQA.&lt;/p&gt;
+		&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;//localhost:1313/publication/dialectic-pipeline/results-donut.png&#34;
+			alt=&#34;From 53.4% to 80.7% on HotpotQA with Phi-mini (&amp;#43;27.3%).&#34;&gt;&lt;figcaption&gt;
+			&lt;p&gt;From 53.4% to 80.7% on HotpotQA with Phi-mini (+27.3%).&lt;/p&gt;
+		&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Improvements of &lt;strong&gt;up to 30%&lt;/strong&gt; on complex multi-hop questions — beating standard Chain-of-Thought prompting.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;//localhost:1313/publication/dialectic-pipeline/results-wikihop.png&#34;
+			alt=&#34;CoT vs. pipeline on WikiHop across all models.&#34;&gt;&lt;figcaption&gt;
+			&lt;p&gt;CoT vs. pipeline on WikiHop across all models.&lt;/p&gt;
+		&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;key-takeaways&#34;&gt;Key Takeaways&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Self-debating is the main driver&lt;/strong&gt;: letting models reflect on and contrast their own reasoning significantly boosts performance, especially as question complexity increases.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Instruction following matters&lt;/strong&gt;: models that strictly follow instructions (Llama, Phi) benefit more than those that get &amp;ldquo;too creative&amp;rdquo; (Gemma-2).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Smart filtering &amp;gt; summarization&lt;/strong&gt;: when dealing with long contexts, filtering for relevant information beats summarization, which can hurt deductive reasoning.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Avoid overthinking&lt;/strong&gt;: for simpler tasks, too much deliberation can introduce errors. A touch of &amp;ldquo;impulsivity&amp;rdquo; sometimes helps.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;&lt;img src=&#34;//localhost:1313/publication/dialectic-pipeline/results-context.png&#34;
+			alt=&#34;Original vs. summarized vs. filtered context on WikiHop.&#34;&gt;&lt;figcaption&gt;
+			&lt;p&gt;Original vs. summarized vs. filtered context on WikiHop.&lt;/p&gt;
+		&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This work also received an &lt;strong&gt;Honorable Mention at the Emanuele Pianta Award (AILC)&lt;/strong&gt; for the best Italian NLP Master&amp;rsquo;s thesis at CLiC-it 2025. 🏆&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;//localhost:1313/publication/dialectic-pipeline/clicit.png&#34;
+			alt=&#34;CLiC-it 2025, Cagliari.&#34;&gt;&lt;figcaption&gt;
+			&lt;p&gt;CLiC-it 2025, Cagliari.&lt;/p&gt;
+		&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;If you&amp;rsquo;re interested in agentic reasoning, small language models, or multi-hop QA — feel free to reach out!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bridging Logic and Learning: Decoding Temporal Logic Embeddings via Transformers</title>
+      <link>//localhost:1313/publication/bridging-logic-and-learning/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/bridging-logic-and-learning/</guid>
+      <description>&lt;p&gt;This work introduces a Transformer-based decoder that inverts embeddings of Signal Temporal Logic (STL) formulae. By constructing a small STL vocabulary, the model can generate valid formulae quickly, generalize across semantic structures, and simplify formulas while preserving their meaning. Our methodology is evaluated across varying formula complexity and applied to requirement mining tasks, performing optimization directly in the semantic space.&lt;/p&gt;
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including 
+.&lt;/p&gt;
+&lt;p&gt;If you find overlap with your work or interests, I would be glad to connect and explore possible collaborations.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News | Sara Candussio</title>
+    <link>//localhost:1313/news/</link>
+      <atom:link href="//localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
+    <description>News</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 17 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>//localhost:1313/media/icon_hu_5c64a4bee4457df8.png</url>
+      <title>News</title>
+      <link>//localhost:1313/news/</link>
+    </image>
+    
+    <item>
+      <title>🎉 RogueAI accepted at CLiC-it 2026 (Poster)</title>
+      <link>//localhost:1313/news/rogueai-clicit-2026/</link>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/news/rogueai-clicit-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🎤 LM Taboo accepted at CLiC-it 2026 (Oral)</title>
+      <link>//localhost:1313/news/lm-taboo-clicit-2026/</link>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/news/lm-taboo-clicit-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🧩 Participating in the NDIF Aletheia&#39;s Quest Competition</title>
+      <link>//localhost:1313/news/ndif-aletheias-quest/</link>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/news/ndif-aletheias-quest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🎤 Paper accepted at NeSy 2026 (Oral)</title>
+      <link>//localhost:1313/news/nesy-2026-oral/</link>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/news/nesy-2026-oral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🗣️ Invited talk at the CLCG Linguistics Lunch</title>
+      <link>//localhost:1313/news/clcg-linguistics-lunch-talk/</link>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/news/clcg-linguistics-lunch-talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visiting researcher period at CLCG, University of Groningen concluded</title>
+      <link>//localhost:1313/news/visiting-clcg/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/news/visiting-clcg/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
