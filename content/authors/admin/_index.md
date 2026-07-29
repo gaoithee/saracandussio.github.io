@@ -26,7 +26,7 @@ profiles:
   - icon: brands/instagram
     url: https://www.instagram.com/saracandussio/
   - icon: brands/github
-    url: https://github.com/gaoithee
+    url: https://github.com/saracandussio
   - icon: brands/linkedin
     url: https://it.linkedin.com/in/sara-candussio-830772283
 
